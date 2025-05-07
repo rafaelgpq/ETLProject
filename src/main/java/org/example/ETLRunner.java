@@ -10,7 +10,7 @@ public class ETLRunner {
             LoadToCSV.run(data);
             ZipCSV.run();
             SendEmail.run();
-            System.out.println("\uD83C\uDFAF ETL Process Completed Successfully.");
+            System.out.println("✅ ETL Process Completed Successfully.");
         } catch (Exception e) {
             e.printStackTrace();
         }
