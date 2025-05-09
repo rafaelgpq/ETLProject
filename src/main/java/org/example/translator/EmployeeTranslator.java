@@ -13,14 +13,4 @@ public class EmployeeTranslator {
 
         );
     }
-
-    public static Employee toEntity(EmployeeDTO dto) {
-        if (dto == null) return null;
-        return new Employee(
-                0,
-                dto.getFullName(),
-                dto.getDept(),
-                Double.parseDouble(dto.getYearlySalary())
-        );
-    }
 }
