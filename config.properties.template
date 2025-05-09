@@ -1,0 +1,10 @@
+# === SMTP CONFIGURATION ===
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+
+# These two must be defined via environment variables
+EMAIL_SENDER=${EMAIL_SENDER}
+EMAIL_PASSWORD=${EMAIL_PASSWORD}
+
+# Comma-separated recipient list
+EMAIL_RECIPIENTS=recipient1@example.com,recipient2@example.com
